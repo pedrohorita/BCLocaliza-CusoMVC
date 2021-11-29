@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMVC", "CursoMVC\CursoM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoAPI", "CursoAPI\CursoAPI.csproj", "{D4F3E561-A592-4ED4-980F-98F00FE1F436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoTeste", "CursoTeste\CursoTeste.csproj", "{8EE75846-5446-4876-837B-5562210DCC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoTeste", "CursoTeste\CursoTeste.csproj", "{8EE75846-5446-4876-837B-5562210DCC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF560364-DB5C-4CA4-93F0-6EEF9A34E4A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A26E8369-177B-4D4C-95C7-2CF89A15A774}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EA29796-3F8C-4134-B1F7-E1191057E35E} = {BF560364-DB5C-4CA4-93F0-6EEF9A34E4A1}
+		{D4F3E561-A592-4ED4-980F-98F00FE1F436} = {BF560364-DB5C-4CA4-93F0-6EEF9A34E4A1}
+		{8EE75846-5446-4876-837B-5562210DCC9B} = {A26E8369-177B-4D4C-95C7-2CF89A15A774}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F79377B-5763-4456-9407-0CC04CE00F44}
